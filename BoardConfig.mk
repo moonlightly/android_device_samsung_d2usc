@@ -27,5 +27,4 @@
 -include vendor/samsung/d2r530/BoardConfigVendor.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := d2usc
-TARGET_BOARD_INFO_FILE ?= device/samsung/d2usc/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := d2usc,d2lte
